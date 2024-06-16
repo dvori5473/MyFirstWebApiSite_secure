@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="CssPage/AddUser.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="JsPage/User.js"></script>
+</head>
+<body style="text-align:center">
+    <h1>רישום</h1>
+    <label>שם פרטי</label><br />
+    <input type="text" id="FirstNamea" /><br /><br />
+    <label>שם משפחה</label><br />
+    <input type="text" id="LastNamea"/><br /><br />
+    <label>שם משתמש</label><br />
+    <input type="text" id="UsetNamea"/><br /><br />
+    <label>סיסמה</label><br />
+    <input type="password" id="Password" oninput="CheckPassword()"/><br /><br />  
+    <progress id="progress" value="0" max="4"></progress>
+    <div id="strentgh"></div>
+    <button onclick="Register()">רישום</button><br />
+
+</body>
+</html>

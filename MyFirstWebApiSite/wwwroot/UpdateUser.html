@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="JsPage/User.js"></script>
+    <link href="CssPage/UpdateUser.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+
+</head>
+<body style="text-align:center">
+    <h1>עדכון פרטים</h1>
+    <label>שם פרטי</label><br />
+    <input type="text" id="FirstNameu" /><br /><br />
+    <label>שם משפחה</label><br />
+    <input type="text" id="LastNameu" /><br /><br />
+    <label>שם משתמש</label><br />
+    <input type="text" id="UserNameu" /><br /><br />
+    <label>סיסמה</label><br />
+    <input type="password" id="Password" oninput="CheckPassword()" /><br /><br />
+    <progress id="progress" value="0" max="4"></progress>
+    <div id="strentgh"></div>
+    <button onclick="UpdateUser()">עידכון</button><br /><br />
+    <a href="Products.html" title="קניות">חזרה לקניות</a>
+   
+</body>
+
+</html>
